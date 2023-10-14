@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet/project.css">
+    <link rel="icon" type="image/x-icon" href="/images/webIcon.ico">
+    <title>Projects Page</title>
+</head>
+<body>
+    <div class="project-container">
+        <header>
+            <img src="/images/logo.png" alt="Image of a Name Logo" class="logo">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/html/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/html/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="cta">
+                <a href="/html/contact.html">contact me</a>
+            </button>
+        </header>
+
+        <div class="project-content-container">
+            <div class="text-container">
+                <h1>
+                    MY PROJECTS
+                </h1>
+                <p>
+                    These are the projects that I completed and that I am very proud of.
+                </p>
+            </div>
+            <div class="mockups">
+                <div class="mockup-slide">
+                    <img src="/images/phoneMockkUp/1-Start-Up-Page-portrait.png">
+                    <img src="/images/phoneMockkUp/2-welcome-page-portrait.png">
+                    <img src="/images/phoneMockkUp/3-Login page-portrait.png">
+                    <img src="/images/phoneMockkUp/4-Sign up page-portrait.png">
+                    <img src="/images/phoneMockkUp/5-Dashboard-portrait.png">
+                    <img src="/images/phoneMockkUp/6-Menu-portrait.png">
+                    <img src="/images/phoneMockkUp/7-product view-portrait.png">
+                    <img src="/images/phoneMockkUp/8-qty-size-portrait.png">
+                    <img src="/images/phoneMockkUp/9-Favorites-portrait.png">
+                    <img src="/images/phoneMockkUp/10-check out-portrait.png">
+                    <img src="/images/phoneMockkUp/11-My Profile-portrait.png">
+                </div>
+            </div>
+        </div>
+        <div class="recent-project-text">
+           <h2>Recent Project</h2>
+           <h3>Mobile Ordering App</h3>
+           <p>UI Design</p>
+        </div>
+
+        <div class="footer">
+            <p>edgardobalan24@gmail.com</p>
+        </div>
+    </div>
+    
+    <script>
+        var copy = document.querySelector(".mockup-slide").cloneNode(true);
+        document.querySelector('.mockups').appendChild(copy);
+    </script>
+</body>
+</html>
